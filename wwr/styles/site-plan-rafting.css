@@ -1,0 +1,23 @@
+@import url('@import url https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Mynerve?query=mynerve');
+:root {
+    --primary-color: #30362F;
+    --secondary-color: #625834;
+    --accent1-color: #A59132;
+    --accent2-color: #FFFBDB;
+  
+ 
+  
+    --heading-font: 'mynerve', handwriting;
+    --paragraph-font: 'montserrat', normal;
+  
+    --nav-background-color: #FFFBDB;
+    --nav-link-color: #30362F;
+    --nav-hover-link-color: #007EA7;
+    --nav-hover-background-color: #A59132;
+}
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+
