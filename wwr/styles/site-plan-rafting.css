@@ -1,5 +1,5 @@
-@import url('@import url https://fonts.google.com/specimen/Montserrat');
-@import url('https://fonts.google.com/specimen/Mynerve?query=mynerve');
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Mynerve?query=mynerve);
 :root {
     --primary-color: #30362F;
     --secondary-color: #625834;
@@ -16,8 +16,10 @@
     --nav-hover-link-color: #007EA7;
     --nav-hover-background-color: #A59132;
 }
+
 body {
     max-width: 960px;
     padding: 20px;
 }
+
 

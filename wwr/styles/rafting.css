@@ -1,0 +1,62 @@
+@import url('https://fonts.google.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.google/css?family=mynerverve&display=swap');
+* {
+    width: auto;
+}
+:root {
+    --primary-color: #30362F;
+    --secondary-color: #625834;
+    --accent1-color: #A59132;
+    --accent2-color: #FFFBDB;
+  
+ 
+  
+    --heading-font: 'mynerve';
+    --paragraph-font: 'Montserrat', normal;
+  
+    --nav-background-color: #FFFBDB;
+    --nav-link-color: #30362F;
+    --nav-hover-link-color: #007EA7;
+    --nav-hover-background-color: #A59132;
+}
+
+header img {
+    float:left;
+    height: 100px;
+    width:auto
+}
+h1 {
+    font-family: 'Mynerve', cursive;
+    color: #30362F;
+    position:absolute;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #625834;
+}
+div .hero {
+    position: relative;
+}
+.hero {
+    position:absolute;
+}
+.hero p{
+    float:right;
+}
+article {
+    position:absolute;
+}
+article img {
+    float:right;
+}
+.hero img {
+    position:absolute;
+    height: 300px;
+    width: 1000px;
+    top: 110px;
+}
+.hero h1 {
+    position: absolute;
+    top: 100px;
+    width: 1000px;
+}
