@@ -1,5 +1,5 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
-@import url(https://fonts.google.com/specimen/Mynerve?query=mynerve);
+@import url('https://fonts.google.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.google/css?family=mynerverve&display=swap');
 :root {
     --primary-color: #30362F;
     --secondary-color: #625834;
