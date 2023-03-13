@@ -107,11 +107,13 @@ div.hero img {
     top: 150px;
     background-color: aliceblue;
     height: 90px;
-    font-size: 35px;
+    font-size: 20px;
+    width: 800px;
+    text-align: justify;
 }
 .hero article img{
     position: absolute;
-    top: 182px;
+    top: 165px;
     left: 800px;
     width: 150px;
     height: 90px;;
