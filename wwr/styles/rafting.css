@@ -1,80 +1,54 @@
 @import url('https://fonts.google.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.google/css?family=mynerverve&display=swap');
-* {
-    width: 960px;
-    border: 0;
-    padding: 0;
-}
 
-/*
-
-* {
-	margin: 0;
-	padding: 0;
+body{
+    width: 100%;
 }
-div .hero {
-    position: relative;
+header{
+    display:grid;
+    width: 100%;
 }
-header img {
-    float:left;
-    height: 100px;
-    width:auto
+main{
+    width: 100%;
 }
-div h1 {
-    font: 'Mynerve', cursive;
-    color: #30362F;
-    position:absolute;
-    top: 800px;
-    left: 200px;
+div{
+    width: 100%;
+}
+nav a{
+    display: flex;
+    text-align:center;
+    color:#000;
+    text-decoration:none;
+    align-self:center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+section{
+    width: 100%;
+}
+section.gallery{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    text-align: center;
+}
+.gallery figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center,;
     
 }
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #625834;
-
+figcaption{
+    text-align: center;
 }
-.hero {
-    position:absolute;
+section img{
+    width: 15em;
 }
-.hero p{
-    float:right;
-}
-article {
-    position:absolute;
-}
-article img {
-    float:right;
-}
-.hero img {
-    position:absolute;
-    height: 300px;
-    width: 1000px;
-    top: 110px;
-}
-.hero h1 {
-    position: absolute;
-    top: 100px;
-    width: 1000px;
-}
-
-:root {
-    --primary-color: #30362F;
-    --secondary-color: #625834;
-    --accent1-color: #A59132;
-    --accent2-color: #FFFBDB;
-  
- 
-  
-    --heading-font: 'Mynerve', cursive;
-    --paragraph-font: 'Montserrat', sans-serif;
-  
-    --nav-background-color: #FFFBDB;
-    --nav-link-color: #30362F;
-    --nav-hover-link-color: #007EA7;
-    --nav-hover-background-color: #A59132;
-}*/
 h1, h2 {
-    font-family: 'Mynerve', cursive;
+    font-family: Mynerve, cursive;
     color: #30362F;
 }
 div h1 {
@@ -83,20 +57,21 @@ div h1 {
     background-color: #007EA7;
     height: 90px;
     font-size: 40px;
+    width: 100%;
 }
 p {
-    font: 'Montserrat', sans-serif;
+    font: Montserrat, sans-serif;
     color: #30362f;
 }
 div.hero {
     position: relative;
     text-align: center;
+    width: 100%;
 }
 div.hero img {
     width: 100%;
-    height: 400px;
+    height: 200px;
     opacity: .9;
-    width: 960;
     height: 400px;
 }
 .hero div article {
@@ -108,23 +83,32 @@ div.hero img {
     background-color: aliceblue;
     height: 90px;
     font-size: 20px;
-    width: 800px;
+    width: 88%;
     text-align: justify, wrap;
+  
 }
 .hero article img{
     position: absolute;
     top: 165px;
-    left: 800px;
+    float: right;
     width: 150px;
     height: 90px;;
     border: #30362f;
     z-index:1;
     border: 5px solid #007EA7;
+    left: 67.5em;
 }
 header img {
-    height: 90px;
+    height: 5em;
     width:auto;
 }
+footer nav{
+    display: flex;
+    width: 50%;
+}
 footer img {
-    width: 90px;
+    width: 5em;
+}
+div {
+    width: 100%;
 }
