@@ -1,5 +1,5 @@
-@import url('https://fonts.google.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.google/css?family=mynerverve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
 body{
     width: 100%;
@@ -39,7 +39,7 @@ section img{
     width: 15em;
 }
 h1, h2 {
-    font-family: Mynerve, cursive;
+    font-family: 'Mynerve', cursive;
     color: #30362F;
     width: 100%;
     text-align: center;
@@ -53,7 +53,7 @@ div h1 {
     width: 100%;
 }
 p {
-    font: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #30362f;
 }
 div.hero {
