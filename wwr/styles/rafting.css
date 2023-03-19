@@ -32,18 +32,13 @@ section{
 section.gallery{
     display: grid;
     grid-template-columns: repeat(3 1fr);
-    text-align: center;
+
 }
 .gallery figure {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center,;
-    
+    display: grid;
+    grid-template-columns: repeat(3 1fr);   
 }
-figcaption{
-    text-align: center;
-}
+
 section img{
     width: 15em;
 }
