@@ -29,14 +29,10 @@ nav {
 section{
     width: 100%;
 }
-section.gallery{
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
 
-}
-.gallery figure {
-    display: grid;
-    grid-template-columns: repeat(3 1fr);   
+section.gallery{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section img{
@@ -45,6 +41,8 @@ section img{
 h1, h2 {
     font-family: Mynerve, cursive;
     color: #30362F;
+    width: 100%;
+    text-align: center;
 }
 div h1 {
     position: absolute;
@@ -84,14 +82,13 @@ div.hero img {
 }
 .hero article img{
     position: absolute;
-    top: 165px;
-    float: right;
-    width: 150px;
+    width: auto;
     height: 90px;;
     border: #30362f;
     z-index:1;
     border: 5px solid #007EA7;
-    left: 67.5em;
+    top:10em;
+    left:54em
 }
 header img {
     height: 5em;
