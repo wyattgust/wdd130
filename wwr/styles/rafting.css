@@ -74,7 +74,7 @@ div.hero img {
     position:absolute;
     top: 150px;
     background-color: aliceblue;
-    height: 90px;
+    height: 5em;
     font-size: 20px;
     width: 88%;
     text-align: justify, wrap;
@@ -82,13 +82,13 @@ div.hero img {
 }
 .hero article img{
     position: absolute;
-    width: auto;
-    height: 90px;;
+    width:7.25em;
+    height: auto;
     border: #30362f;
     z-index:1;
-    border: 5px solid #007EA7;
-    top:10em;
-    left:54em
+    border: .3em solid #007EA7;
+    top:40%;
+    left: 88%;
 }
 header img {
     height: 5em;
