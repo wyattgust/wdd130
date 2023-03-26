@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display:grid;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+div{
+    width: 100%;
+}
+nav a{
+    display: flex;
+    text-align:center;
+    color:#000;
+    text-decoration:none;
+    align-self:center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+section{
+    width: 100%;
+}
+
+section.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section img{
+    width: 15em;
+}
+body {
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+} 
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+} 
+  button:hover {
+    background-color: darkgreen;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+header img {
+    height: 5em;
+    width:auto;
+}
+footer nav{
+    display: flex;
+    width: 50%;
+}
+footer img {
+    width: 5em;
+}
+section{
+    width: 100%;
+}
+section.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+section img{
+    width: 15em;
+}
