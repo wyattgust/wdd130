@@ -159,3 +159,13 @@ button {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
+div.contact h1 {
+    top: 2em;
+}
+div.map{
+    position: relative;
+    width:20em;
+    height: auto;
+    top: 8em;
+    left: 50%;
+}
