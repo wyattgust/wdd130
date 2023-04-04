@@ -95,12 +95,9 @@ div.hero img {
     position:absolute;
     top: 150px;
     background-color:#eee;
-    height: 5;
     font-size: 45px;
     width: 88%;
-    font: #30362F;
-    
-  
+    font: #30362f; 
 }
 .hero article img{
     position: absolute;
