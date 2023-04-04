@@ -221,3 +221,15 @@ section.upcomming-trips aside{
 section img{
     width: 200px;
 }
+/** Home **/
+.form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.trips-page {
+    grid-column: 2/3; 
+}
+
+
+    
