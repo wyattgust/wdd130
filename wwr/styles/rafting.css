@@ -1,6 +1,28 @@
+/** Applies to all pages **/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mynerve&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #30362F;
+    --secondary-color: #625834;
+    --accent1-color: #A59132;
+    --accent2-color: #FFFBDB;
+  
+ 
+  
+    --heading-font: 'mynerve', handwriting;
+    --paragraph-font: 'montserrat', normal;
+  
+    --nav-background-color: #FFFBDB;
+    --nav-link-color: #30362F;
+    --nav-hover-link-color: #007EA7;
+    --nav-hover-background-color: #A59132;
+}
 body{
     width: 100%;
 }
@@ -14,30 +36,28 @@ main{
 div{
     width: 100%;
 }
-nav a{
-    display: flex;
-    text-align:center;
-    color:#000;
-    text-decoration:none;
-    align-self:center;
-}
 nav {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 6em;
+    position: absolute;
+    padding-top: 2em;
+    justify-content: space-evenly; 
+    width: 80%;
+    text-align: center;  
+}
+/** Applies to About page **/
+
+
+
+div.gallery{
     display: flex;
     justify-content: space-around;
-    align-items: center; 
 }
-section{
-    width: 100%;
-}
-
-section.gallery{
-    display: flex;
-    flex-wrap: wrap;
+div.gallery img{
+    width: 200PX;
 }
 
-section img{
-    width: 15em;
-}
 h1, h2 {
     font-family: 'Mynerve', cursive;
     color: #30362F;
@@ -66,6 +86,7 @@ div.hero img {
     height: 200px;
     opacity: .9;
     height: 400px;
+    border-radius: 5em;
 }
 .hero div article {
     position: relative;
@@ -73,10 +94,11 @@ div.hero img {
 .hero article p {
     position:absolute;
     top: 150px;
-    background-color: aliceblue;
-    height: 5em;
-    font-size: 20px;
+    background-color:#eee;
+    height: 5;
+    font-size: 45px;
     width: 88%;
+    font: #30362F;
     
   
 }
@@ -104,6 +126,8 @@ footer img {
 div {
     width: 100%;
 }
+
+/** Contact Page **/
 form {
     width: 650px;
     margin: 0 auto;
@@ -147,7 +171,7 @@ button {
     padding: .75rem;
     font-size: 1.2rem;
 } 
-  button:hover {
+button:hover {
     background-color: darkgreen;
 }
 
@@ -163,9 +187,37 @@ div.contact h1 {
     top: 2em;
 }
 div.map{
-    position: relative;
+    position: absolute;
     width:20em;
-    height: auto;
-    top: 8em;
-    left: 50%;
+    height: 50em;
+    top: 60em;
+    left: 70%;
+}
+div.team {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/** Trips **/
+div.current-trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    align-self: center; 
+    background-color: antiquewhite;
+}
+
+
+section.upcomming-trips{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: aliceblue;
+}
+section.upcomming-trips aside{
+    grid-area: 1/4/5/6;
+    background-color:#eee
+}
+section img{
+    width: 200px;
 }

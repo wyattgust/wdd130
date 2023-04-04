@@ -7,13 +7,6 @@
 }
 header{
     display:grid;
-    width: 100%;
-}
-main{
-    width: 100%;
-}
-div{
-    width: 100%;
 }
 nav a{
     display: flex;
@@ -27,9 +20,7 @@ nav {
     justify-content: space-around;
     align-items: center; 
 }
-section{
-    width: 100%;
-}
+
 
 section.gallery{
     display: flex;
@@ -40,11 +31,13 @@ section img{
     width: 15em;
 }
 body {
+    margin: 2em;
     width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
     color: #333;
     background: #fff;
+    
 }
 header {
     margin: 0 auto;
